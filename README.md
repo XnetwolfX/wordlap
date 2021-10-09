@@ -9,8 +9,10 @@ You also have to define save file for generation
 lenght of words> (n-n2)
 Is not ready yet so don't test it
 # Launch
-``` $ cd wordlap
-    $ python main.py ```
+``` 
+$ cd wordlap
+$ python main.py 
+```
 
 # Download 
 ` $ git clone https://github.com/XnetwolfX/wordlap `
