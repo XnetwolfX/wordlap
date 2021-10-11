@@ -24,8 +24,9 @@ $ python3 main.py
 ```
 $ bash update.sh
 ```
-# Watch the Video below if you don't know how to use wordlap. The same video works for Linux and Termux.
-<video src="https://github.com/XnetwolfX/wordlap/blob/master/video-demo-of-wordlap.mp4" height="320" width="320" alt="WordLap">
 
 # Download 
 ` $ git clone https://github.com/XnetwolfX/wordlap `
+
+# Watch the Video below if you don't know how to use wordlap. The same video works for Linux and Termux.
+<img src="https://github.com/XnetwolfX/wordlap/blob/master/video-demo-of-wordlap.mp4" height="320" width="320" alt="WordLap">
