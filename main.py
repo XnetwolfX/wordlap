@@ -77,6 +77,16 @@ def exit():
 	os.system("exit")
 	exit
 
+def main():
+	lenght = input("lenght of words> ")
+	savefile = input("saving of words> ")
+	letters = ("qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890@*!#:;&_()-',.?+×÷=%/\$€£￦¥°¿¡^[]<>~`§μ¬\"Г")
+	if lenght[0] == "[":
+		generatewordwithbrack(lenght, savefile, letters)
+	elif lenght[0] == "(":
+		generatewordwithparat(lenght, savefile, letters)
+	else:
+		print("Error please follow instruction or watch demo")
 
 def option():
 	var = input("""
@@ -105,17 +115,3 @@ def option():
 				
 help_1()
 option()
-
-def main():
-	lenght = input("lenght of words> ")
-	savefile = input("saving of words> ")
-	letters = ("qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890@*!#:;&_()-',.?+×÷=%/\$€£￦¥°¿¡^[]<>~`§μ¬\"Г")
-	if lenght[0] == "[":
-		generatewordwithbrack(lenght, savefile, letters)
-	elif lenght[0] == "(":
-		generatewordwithparat(lenght, savefile, letters)
-	else:
-		print("Error please follow instruction or watch demo")
-	
-
-	
